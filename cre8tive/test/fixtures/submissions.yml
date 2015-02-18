@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  category_id: 1
+  age_range_id: 1
+  title: MyString
+  votes: 1
+  contest_start_date: 2015-02-18 16:31:41
+  contest_end_date: 2015-02-18 16:31:41
+  image_url: MyText
+
+two:
+  user_id: 1
+  category_id: 1
+  age_range_id: 1
+  title: MyString
+  votes: 1
+  contest_start_date: 2015-02-18 16:31:41
+  contest_end_date: 2015-02-18 16:31:41
+  image_url: MyText
