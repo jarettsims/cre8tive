@@ -8,6 +8,15 @@
 </head>
 <body>
 
+	<ul>
+		<% if current_user %>
+			<li><a href="/">Home</a></li>
+			<li><a href="<%= sessions_delete_path %>">Logout</a></li>
+		<% else %>
+			<li><a href="<%= sessions_new_path %>">Login</a></li>
+	    <% end %>
+    </ul>
+
 <%= yield %>
 
 </body>
