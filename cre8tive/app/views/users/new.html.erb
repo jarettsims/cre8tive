@@ -1,0 +1,21 @@
+<h1>Create New User Page</h1>
+
+<form method="POST" action="/users/create">
+	<label for="username">
+		Username:
+		<input type="text" name="username" id="username" />
+	</label>
+
+	<label>
+		Password:
+		<input type="password" name="password" id="password" />
+	</label>
+
+	<label>
+		Confirm Password:
+		<input type="password" name="password-confirmation" id="password-confirmation" />
+	</label>
+
+	<button>Submit</button>
+	<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token() %>">
+</form>
