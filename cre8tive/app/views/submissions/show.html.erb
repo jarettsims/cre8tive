@@ -1,0 +1,7 @@
+<% @submissions.each do |submission| %>
+	<ul>
+		<li> <%= submission.title %> </li>
+		<li> <img src="<%=submission.image_url%>"></li>
+		
+	</ul>
+<% end %>
